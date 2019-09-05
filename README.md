@@ -3,25 +3,17 @@
 
 Quickstart
 -----
-- `git clone https://github.com/jitendrakumar-sdn/MEAN_Architecture.git`
-- `cd MEAN_Architecture && npm install && npm start`
+- `git clone https://github.com/pranabeshchand/Node_Architecture.git`
+- `cd Node_Architecture && npm install && npm start`
 - Local url: http://localhost:3000
 - Swagger Url for testing api: http://localhost:3000/api
 
 
 Setup
------
-- Install [Node](https://docs.npmjs.com/getting-started/installing-node) latest node version.
-- Install [NPM](https://www.npmjs.com/get-npm)
+----- 
 - Run `npm install` in the directory with the `package.json` (the root directory).
 
-
-How to Contribute
------
-- Create a new branch on this repo
-- Make your changes
-- Commit & push your changes, then open a [pull request] for approval
-
+ 
 Hot Tips
 -----
 - Src folder contain all logic. 
@@ -34,10 +26,3 @@ Hot Tips
 - Services: To interact with database. 
 - app.modules.ts: For injecting global level dependency(model, services, controller)     
 - main.ts: Bootstrap the application.  
-
-
-Deploy
------
-Run the server through pm2 tool 
-- pm2 start npm -- start
-
